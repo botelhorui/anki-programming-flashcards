@@ -1,0 +1,74 @@
+.wrapper {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+#front {
+    display: block;
+    position: absolute;
+    height: 10%;
+    top: 0;
+    left:0;
+    right: 0;
+}
+
+
+#editor {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left:0;
+    right: 0;
+    height: 80%;
+}
+
+
+#buttons {
+    display: block;
+    position: absolute;
+    top: 90%;
+    left:0;
+    right: 0;
+    height: 10%;
+}
+
+
+
+.card {
+    --card-q-background: #2ad4ff;
+    --color-flag-menu: #d5f6ff;
+    --icon-button-background-focus: #ffde00;
+    --transparent-background-color: #ffffff00;
+    --button-text-color: limegreen;
+    --ans1-button-text-color: #F44336;
+    --ans2-button-text-color: #FF9800;
+    --ans3-button-text-color: #4CAF50;
+    --ans4-button-text-color: #2196F3;
+    font-size: 20px;
+    text-align: center;
+    color: limegreen;
+    background-color: #262626;
+}
+
+
+.button {
+    background-color: var(--transparent-background-color);
+    border: none;
+    color: var(--button-text-color);
+    padding: 3px 1.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px 2px;
+    cursor: pointer;
+    outline: none;
+    border-style: solid;
+}
+
+.button:active {
+    background-color: #ff3300;
+}
